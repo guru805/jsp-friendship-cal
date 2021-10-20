@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Satisfy&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	display:flex;
+	flex-direction: column;
+}
+
+img{
+	width: 100%;
+}
+.about{
+	height:23vh;
+	font-family: 'Satisfy', cursive;
+	text-align: center;
+	background:#E6FBE1;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+}
+
+.footer{
+	height:18vh;
+	background:#E6FBE1;
+}
+
+.container{
+	display:flex;
+	flex-direction:column;
+	height:35vh;
+	font-family: 'Play', sans-serif;
+	text-align:center
+}
+
+.inputSection{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top:2%;
+}
+
+button{
+	width:13vw;
+	height:5vh;
+	background:black;
+	color:white;
+	font-size:15px;
+	border-radius:20%;
+}
+
+input{
+	width:20vw;
+	height:5vh;
+	font-size:15px;
+}
